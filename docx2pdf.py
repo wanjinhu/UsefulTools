@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- encoding: utf-8 -*-
 '''
-@File    :   01-docx2pdf.py
+@File    :   docx2pdf.py
 @Time    :   2024/08/12 15:32:37
 @Author  :   Wanjin.Hu 
 @Version :   1.0
@@ -17,6 +17,7 @@ import time
 parser = argparse.ArgumentParser(description="docx to pdf")
 parser.add_argument("-d", "--project_dir", dest="projectDir", type=str, required=True, help="Input project dir")
 args = parser.parse_args()
+
 def docx_to_pdf(docx_path, pdf_path):
     convert(docx_path, pdf_path)
 
