@@ -28,3 +28,4 @@ plugins:
 nav:
   - Index: index.md
   - Test: test.md
+  - Test_again: test_again.md
